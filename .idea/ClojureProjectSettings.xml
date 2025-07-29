@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ClojureProjectSettings">
+    <option name="replScopeMapping">
+      <list>
+        <SerialisedReplScopeSetting>
+          <option name="replName" value="estudos-clojure" />
+          <option name="serialisedScope" value="file:file://C:/Repos/Clojure-Estudos/1-1-Cursos-Alura-Clojure/estudos-clojure/src/estudos_clojure/aula_8_aridade_e_loops.clj" />
+        </SerialisedReplScopeSetting>
+      </list>
+    </option>
+  </component>
+</project>

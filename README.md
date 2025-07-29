@@ -10,3 +10,7 @@
 
 
 `lein create` -> Comando para criar um projeto na estrutura `leiningen` `default -> Library` || `app Application Template`
+
+## Comandos úteis repl
+
+`use '{{NAMESPACE}}.{{FILE}` -> Para importar o arquivo no repl para fins de testes
