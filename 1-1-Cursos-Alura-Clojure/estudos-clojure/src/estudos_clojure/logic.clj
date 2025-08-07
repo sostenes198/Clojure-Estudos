@@ -1,4 +1,5 @@
-(ns estudos-clojure.logic)
+(ns estudos-clojure.logic
+  (:require [estudos-clojure.model :as h.model]))
 
 (defn total-do-item
   [[_ detalhes]]
@@ -31,7 +32,7 @@
 
 (defn cabe-na-fila?
   [hospital departamento]
-  (-> hospital
+  (some-> hospital
       (get departamento)
       (count)
       (< 5))
@@ -95,3 +96,6 @@
      :hospital hospital-atualizado
      })
   )
+
+(defn agora []
+  (h.model/to-ms (java.util.Date.)))
